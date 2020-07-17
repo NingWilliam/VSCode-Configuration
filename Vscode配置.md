@@ -203,8 +203,5 @@ setting.json文件配置：
 
 }
 
-
-```
-
-![](C:\Users\PC\AppData\Roaming\Typora\typora-user-images\image-20200717145757885.png)
+https://github.com/NingWilliam/VSCode-Configuration/blob/master/image-20200717/image-20200717145757885.png
 
