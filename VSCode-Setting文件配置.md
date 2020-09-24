@@ -166,7 +166,21 @@ setting.json文件配置：
  // 在保存时格式化文件。
 
  "editor.formatOnSave": true,
-
+ // 强制单引号
+ "prettier.singleQuote": true,
+ // 控制尾随逗号的打印
+ "prettier.trailingComma": "all",
+ // 开启 exlint 支持
+ "prettier.eslintIntegration": true,
+ // 使用插件格式化 html
+ “vutur.format.defaultFormatter.html”: "js-beautify-html",
+ // 格式化插件的配置
+ "vetur.format.defaultFormartterOptions": {
+ "js-beautify-html": {
+           // 属性强制折行对齐
+           "warp_attributes": "force-aligned"
+       }
+ },
  // 启用/禁用 JavaScript 格式化程序。
 
  "javascript.format.enable": false,
